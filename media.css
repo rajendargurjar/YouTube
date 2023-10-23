@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* TTEBLET */
+@media (max-width: 768px) {
+  header .div1 .img1 {
+    width: 60%;
+    height: 5vh;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+  }
+  header .div1 .bars{
+    font-size: 1rem;
+    position: relative;
+    top: 3vh;
+    left: 0vw;
+  }
+
+  /*  */
+  header .div2{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    /* background-color: blueviolet; */
+  }
+  header .div2 input{
+    width: 60%;
+    height: 5vh;
+    margin-left: 8vw;
+    margin-top: 2vh;
+  }
+  header .div2 .search{
+    position: relative;
+    top: 3.2vh;
+    left: -4vw;
+  }
+  header .div2 .microphone{
+    /* padding: 1vh 1vw 2vh 1vw; */
+    margin-top: 1.5vh;
+    width: 1.5%;
+    height: 2vh;
+    background-color: transparent;
+  }
+  /*  */
+  header .div3 .camera{
+    padding: 3vh 2vw;
+    font-size: 1em;
+    position: relative;    
+    top: 0;
+    left: -8vw;
+  } 
+  /*  */
+.main_section .div_main .div1 .home_li i{
+  font-size: .7rem;
+}
+.main_section .div_main .div1 .home_li {
+  font-size: .8rem;
+}
+.main_section .div_main .div1 .Subscriptions_1{
+  display: none;
+}
+.main_section .div_main .div1 .show {
+  display: block;
+}
+.main_section .div_main .div1 .Library_li,.Subscriptions,.Explore,.Settings{
+  display: none;
+}
+.main_section .div_main .div2 .list ul li{
+  margin: 1vh;
+  font-size: .8rem;
+  padding: .8vh 1.5vw;
+  border-radius: 10px;
+ }
+}
+/*  */
+.main_section .div_main .div2 .row_1 .vi_1 .vid_text .div2 h6 {
+  font-size: .6rem;
+  font-weight: bolder;
+  padding-left: 1vw;
+  padding-top: 1vh;
+}
+.main_section .div_main .div2 .row_1 .vi_1 .vid_text .div2 .para1 {
+  font-size: .7rem;
+  margin-top: -.9vh;
+}
+/* L---425px */
+@media (max-width:425px) {
+
+    header .div1 .img1 {
+        width: 80%;
+        height: 3vh;
+        position: relative;
+        top: 3vh;
+        left: 1vw;
+      }
+      header .div1 .bars{
+        font-size: .6rem;
+        position: relative;
+        top: 3.6vh;
+        left: 0vw;
+      }
+      /*  */
+      header .div2{
+        width: 60%;
+        height: 10vh;
+        display: flex;
+        /* background-color: blueviolet; */
+      }
+      header .div2 input{
+        width: 60%;
+        height: 3.5vh;
+        margin-left: 8vw;
+        margin-top: 2.5vh;
+      }
+      header .div2 input::placeholder{
+        font-size: .7rem;
+        position: relative;
+        top: -.3vh;
+        left: 0;
+      }
+      header .div2 .search{
+        position: relative;
+        top: 3.6vh;
+        left: -5vw;
+        font-size: .7rem;
+      }
+      header .div2 .microphone{
+        font-size: .9rem;
+        background-color: transparent;
+      }
+      /*  */
+      header .div3 .camera{
+        /* padding: 3vh 2vw; */
+        font-size: .9em;
+        position: relative;
+        top: -.3vh;
+        left: -14vw;
+      }  
+      /*  */
+      .main_section .div_main .div1 .home_li i{
+        font-size: .5rem;
+      }
+      .main_section .div_main .div1 .home_li {
+        font-size: .5rem;
+        padding-right: 1vw;
+      }
+      .main_section .div_main .div2 .list ul li{
+        margin: 1vh;
+        font-size: .6rem;
+        padding: .8vh 3vw;
+        border-radius: 10px;
+       }
+       /* .main_section .div_main .div2 .list {
+        width: 92%;
+      } */
+      .main_section .div_main .div2 .row_1 .vi_1 {
+        padding: 1vh;
+        margin-top: -8vh;
+      }
+}
+
+/*  */
+@media (max-width:375px){
+  .main_section .div_main .div1 .home_li i{
+    font-size: .3rem;
+  }
+  .main_section .div_main .div1 .home_li {
+    font-size: .5rem;
+  }
+}
+
+/* L---320px */
+@media (max-width:320px) {
+    header .div1 .img1 {
+        height: 2vh;
+        position: relative;
+        top: 3.5vh;
+        left: 2vw;
+      }
+      header .div1 .bars{
+        font-size: .4rem;
+        position: relative;
+        top: 3.9vh;
+        left: 0vw;
+      }
+      /*  */
+      header .div2 input{
+        height: 3vh;
+      }
+      header .div2 input::placeholder{
+        font-size: .5rem;
+        position: relative;
+        top: -.4vh;
+        left: 0;
+      }
+      header .div2 .search{
+        position: relative;
+        top: 3.5vh;
+        left: -6vw;
+        font-size: .6rem;
+      }
+      header .div2 .microphone{
+        font-size: .8rem;
+        position: relative;
+        top: .3vh;
+        background-color: transparent;
+      }
+      /*  */
+      header .div3 .camera{
+        font-size: .7em;
+        position: relative;
+        top: 0vh;
+        /* left: -4vw; */
+      } 
+      /*  */
+      .main_section .div_main .div1 .home_li i{
+        font-size: .2rem;
+      }
+      .main_section .div_main .div1 .home_li {
+        font-size: .4rem;
+      }
+      .main_section .div_main .div2 .row_1 .vi_1 {
+        padding: 1vh;
+        margin-top: -5vh;
+      }
+
+}
